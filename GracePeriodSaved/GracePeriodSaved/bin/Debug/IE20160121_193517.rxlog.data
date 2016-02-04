@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="25.5s"
+		durationms="25495"
+		type="root"
+		rid="671ea54e8a1a0a1"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/21/2016 7:35:23 PM"
+		timestampiso="2016-01-22T00:35:23"
+		timeoutfactor="1"
+		module="IE">
+		<detail>
+			IE
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.560"
+			timeRelativeToTestModuleStartTime="00:00.561"
+			timeWallClock="19:35:24"
+			time="00:00.560"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://qa.nasdaqprivatemarket.com/site/login.php' with browser 'IE' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\IE.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.649"
+			timeRelativeToTestModuleStartTime="00:00.650"
+			timeWallClock="19:35:24"
+			time="00:00.649"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\IE.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.668"
+			timeRelativeToTestModuleStartTime="00:10.669"
+			timeWallClock="19:35:34"
+			time="00:10.668"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.Grants1' at 75;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Grants1"
+				id="ad5db1d7286548c8844390bd1a50e2b6"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\IE.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.472"
+			timeRelativeToTestModuleStartTime="00:11.473"
+			timeWallClock="19:35:35"
+			time="00:11.472"
+			level="Warn"
+			category="WPF">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#wpf-instrumentation<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\IE.cs"
+				codeline="90"
+				loglvl="Warn"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.495"
+			timeRelativeToTestModuleStartTime="00:25.496"
+			timeWallClock="19:35:49"
+			time="00:25.495"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

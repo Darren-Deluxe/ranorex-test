@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="285fca9a34d8ff95"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1360x768"
+		timestamp="2/3/2016 11:32:11 AM"
+		timestampiso="2016-02-03T16:32:11"
+		timeoutfactor="1"
+		module="FIREFOX_QA">
+		<detail>
+			FIREFOX_QA
+		</detail>
+		<errmsg>
+			Failed to capture an image of element {TreeItem:Option Plan 2011 (Aug 11)}.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.519"
+			timeRelativeToTestModuleStartTime="00:00.519"
+			timeWallClock="11:32:12"
+			time="00:00.519"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://qa.nasdaqprivatemarket.com/site/login.php' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.660"
+			timeRelativeToTestModuleStartTime="00:00.660"
+			timeWallClock="11:32:12"
+			time="00:00.660"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.673"
+			timeRelativeToTestModuleStartTime="00:03.673"
+			timeWallClock="11:32:15"
+			time="00:03.673"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity1.LogIn' at 216;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//form[#'loginForm']/?/?/button[@innertext='Log in']"
+				fullname="NewRepository.ExactEquity1.LogIn"
+				id="b343af58a6424ae28c92bf84dd7c1c24"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.618"
+			timeRelativeToTestModuleStartTime="00:05.618"
+			timeWallClock="11:32:17"
+			time="00:05.618"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 9000ms.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="93"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.664"
+			timeRelativeToTestModuleStartTime="00:14.664"
+			timeWallClock="11:32:26"
+			time="00:14.664"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity1' at 704;494.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]"
+				fullname="NewRepository.ExactEquity1.Self"
+				id="cf552641354c4658ab2c145d09c35e82"
+				timeout="30000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.877"
+			timeRelativeToTestModuleStartTime="00:15.877"
+			timeWallClock="11:32:27"
+			time="00:15.877"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="100"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.889"
+			timeRelativeToTestModuleStartTime="00:18.889"
+			timeWallClock="11:32:30"
+			time="00:18.889"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity1.ContainerMainHGroup2.Grants1' at 29;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']"
+				fullname="NewRepository.ExactEquity1.ContainerMainHGroup2.Grants1"
+				id="7ee629972ef140e1b1fd0f635645d227"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="103"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.820"
+			timeRelativeToTestModuleStartTime="00:20.820"
+			timeWallClock="11:32:32"
+			time="00:20.820"
+			level="Info"
+			category="Delay"
+			errimg=".\FIREFOX_QA20160203_113205_c1f2e174_trace.jpg"
+			errthumb=".\FIREFOX_QA20160203_113205_c1f2e174_trace_thumb.jpg">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="107"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.826"
+			timeRelativeToTestModuleStartTime="00:23.826"
+			timeWallClock="11:32:35"
+			time="00:23.826"
+			level="Info"
+			category="Mouse"
+			errimg=".\FIREFOX_QA20160203_113205_657d5f0d_trace.jpg"
+			errthumb=".\FIREFOX_QA20160203_113205_657d5f0d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ExactEquity.TreeItemXML' at 4;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='ExactEquity' and @page='app.php' and @path='/site/app.php' and @browsername='Mozilla']//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']/treeitem"
+				fullname="NewRepository.ExactEquity.TreeItemXML"
+				id="032a98cc09884a28b36dfe6108ba30de"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="110"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.712"
+			timeRelativeToTestModuleStartTime="00:31.712"
+			timeWallClock="11:32:43"
+			time="00:31.712"
+			level="Error"
+			category="Module"
+			errimg=".\FIREFOX_QA20160203_113205_1c8dcb9c_trace.jpg"
+			errthumb=".\FIREFOX_QA20160203_113205_1c8dcb9c_trace_thumb.jpg">
+			<message>
+				Failed to capture an image of element {TreeItem:Option Plan 2011 (Aug 11)}.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Imaging.FindSingle(Element element, Bitmap feature, FindOptions options)
+   at Ranorex.Location.GetElementLocation(Element element, Boolean relative)
+   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.Click(Location location)
+   at GracePeriodSaved.FIREFOX_QA.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs:line 111
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="111"
+				loglvl="Error"
+				itemindex="8"/>
+		</item>
+	</activity>
+</report>

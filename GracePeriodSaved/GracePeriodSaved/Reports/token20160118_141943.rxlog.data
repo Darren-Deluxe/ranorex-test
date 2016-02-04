@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f8269fc11b462e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/18/2016 2:20:04 PM"
+		timestampiso="2016-01-18T19:20:04"
+		timeoutfactor="1"
+		module="Token">
+		<detail>
+			Token
+		</detail>
+		<errmsg>
+			Failed to find item 'GracePeriodSavedRepository.ExactEquity.SpanTagVarFlashVarsEqBaseurlEqqa'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.521"
+			timeRelativeToTestModuleStartTime="00:00.522"
+			timeWallClock="14:20:05"
+			time="00:00.521"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://qa.nasdaqprivatemarket.com/site/login.php' with browser 'Firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.653"
+			timeRelativeToTestModuleStartTime="00:00.654"
+			timeWallClock="14:20:05"
+			time="00:00.653"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.Email' at 297;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'Email']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Email"
+				id="2ef8d4602e9c43afb8ba6d593a4b0a00"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.484"
+			timeRelativeToTestModuleStartTime="00:03.485"
+			timeWallClock="14:20:08"
+			time="00:03.484"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press with focus on 'ExactEquity.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'Email']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Email"
+				id="2ef8d4602e9c43afb8ba6d593a4b0a00"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.907"
+			timeRelativeToTestModuleStartTime="00:03.908"
+			timeWallClock="14:20:08"
+			time="00:03.907"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back}' with focus on 'ExactEquity.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'Email']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Email"
+				id="2ef8d4602e9c43afb8ba6d593a4b0a00"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.814"
+			timeRelativeToTestModuleStartTime="00:04.815"
+			timeWallClock="14:20:09"
+			time="00:04.814"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'darr' with focus on 'ExactEquity.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'Email']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Email"
+				id="2ef8d4602e9c43afb8ba6d593a4b0a00"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.087"
+			timeRelativeToTestModuleStartTime="00:06.088"
+			timeWallClock="14:20:11"
+			time="00:06.087"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'enbrazeal{LShiftKey down}@{LShiftKey up}aol.com' with focus on 'ExactEquity.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'Email']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Email"
+				id="2ef8d4602e9c43afb8ba6d593a4b0a00"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="103"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.732"
+			timeRelativeToTestModuleStartTime="00:08.733"
+			timeWallClock="14:20:13"
+			time="00:08.732"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.Password' at 224;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'Password']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Password"
+				id="2dc8d60c4da64a3fb818f0d486147e42"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="107"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.094"
+			timeRelativeToTestModuleStartTime="00:10.095"
+			timeWallClock="14:20:15"
+			time="00:10.094"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press with focus on 'ExactEquity.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'Password']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Password"
+				id="2dc8d60c4da64a3fb818f0d486147e42"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="111"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.494"
+			timeRelativeToTestModuleStartTime="00:10.495"
+			timeWallClock="14:20:15"
+			time="00:10.494"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back}' with focus on 'ExactEquity.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'Password']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Password"
+				id="2dc8d60c4da64a3fb818f0d486147e42"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="116"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.478"
+			timeRelativeToTestModuleStartTime="00:11.479"
+			timeWallClock="14:20:16"
+			time="00:11.478"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Capital}S{Capital}uar3z{LShiftKey down}!!!{LShiftKey up}' with focus on 'ExactEquity.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'Password']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Password"
+				id="2dc8d60c4da64a3fb818f0d486147e42"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="120"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.619"
+			timeRelativeToTestModuleStartTime="00:13.620"
+			timeWallClock="14:20:18"
+			time="00:13.619"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.LogIn' at 153;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//form[#'loginForm']/?/?/button[@innertext='Log in']"
+				fullname="GracePeriodSavedRepository.ExactEquity.LogIn"
+				id="a0eb750ea12d45e7ab73c933839fb686"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="124"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.083"
+			timeRelativeToTestModuleStartTime="00:15.084"
+			timeWallClock="14:20:20"
+			time="00:15.083"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="128"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.097"
+			timeRelativeToTestModuleStartTime="00:25.098"
+			timeWallClock="14:20:30"
+			time="00:25.097"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'ExactEquity.Copyright' at 654;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'copyright']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Copyright"
+				id="65b93c007d104c42ba2c8fe5e3f1e9b8"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="131"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.671"
+			timeRelativeToTestModuleStartTime="00:26.672"
+			timeWallClock="14:20:31"
+			time="00:26.671"
+			level="Info"
+			category="Mouse"
+			errimg=".\token20160118_141943_ab73257b_trace.jpg"
+			errthumb=".\token20160118_141943_ab73257b_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Firefox.ViewPageSource' at 103;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='firefox']/?/?/menuitem[@accessiblename='View Page Source']"
+				fullname="GracePeriodSavedRepository.Firefox.ViewPageSource"
+				id="b86fcd48f9c64ad6a0ca8b84def053ca"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="135"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.288"
+			timeRelativeToTestModuleStartTime="00:28.289"
+			timeWallClock="14:20:33"
+			time="00:28.288"
+			level="Info"
+			category="Mouse"
+			errimg=".\token20160118_141943_4fd0a1b6_trace.jpg"
+			errthumb=".\token20160118_141943_4fd0a1b6_trace_thumb.jpg">
+			<message>
+				Mouse Left Down item 'ExactEquity.SpanTagVarFlashVarsEqBaseurlEqqa' at 495;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//pre[#'line1']/span[@innertext~'^\ \ \ \ var\ flashVars\ =\ &quot;base']"
+				fullname="GracePeriodSavedRepository.ExactEquity.SpanTagVarFlashVarsEqBaseurlEqqa"
+				id="280783ccea27482b974ce7842acf51cd"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="139"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:28.807"
+			timeRelativeToTestModuleStartTime="01:28.808"
+			timeWallClock="14:21:33"
+			time="01:28.807"
+			level="Error"
+			category="Module"
+			errimg=".\token20160118_141943_e45787e0_trace.jpg"
+			errthumb=".\token20160118_141943_e45787e0_trace_thumb.jpg">
+			<message>
+				Failed to find item 'GracePeriodSavedRepository.ExactEquity.SpanTagVarFlashVarsEqBaseurlEqqa'.<br/>No element found for path '/dom[1]//pre[#'line1']/span[@innertext~'^\ \ \ \ var\ flashVars\ =\ &quot;base']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at GracePeriodSaved.GracePeriodSavedRepositoryFolders.ExactEquityAppFolder.get_SpanTagVarFlashVarsEqBaseurlEqqa() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\GracePeriodSavedRepository.cs:line 531
+   at GracePeriodSaved.Token.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs:line 140
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\token.cs"
+				codeline="140"
+				type="repoitem"
+				path="/dom[1]//pre[#'line1']/span[@innertext~'^\ \ \ \ var\ flashVars\ =\ &quot;base']"
+				fullname="GracePeriodSavedRepository.ExactEquity.SpanTagVarFlashVarsEqBaseurlEqqa"
+				id="280783ccea27482b974ce7842acf51cd"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="14"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1cb3b8609a1cde40"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/21/2016 8:22:28 PM"
+		timestampiso="2016-01-22T01:22:28"
+		timeoutfactor="1"
+		module="FIREFOX_QA">
+		<detail>
+			FIREFOX_QA
+		</detail>
+		<errmsg>
+			Failed to find item 'GracePeriodSavedRepository.ExactEquity.Flex'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.500"
+			timeRelativeToTestModuleStartTime="00:00.500"
+			timeWallClock="20:22:28"
+			time="00:00.500"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://qa.nasdaqprivatemarket.com/site/login.php' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.618"
+			timeRelativeToTestModuleStartTime="00:00.618"
+			timeWallClock="20:22:28"
+			time="00:00.618"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 30s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.637"
+			timeRelativeToTestModuleStartTime="00:30.637"
+			timeWallClock="20:22:58"
+			time="00:30.637"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity' at 704;494.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]"
+				fullname="GracePeriodSavedRepository.ExactEquity.Self"
+				id="d670261f9849434a9bcae02bdffdd610"
+				timeout="30000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.532"
+			timeRelativeToTestModuleStartTime="00:32.532"
+			timeWallClock="20:23:00"
+			time="00:32.532"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="93"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.537"
+			timeRelativeToTestModuleStartTime="00:35.537"
+			timeWallClock="20:23:03"
+			time="00:35.537"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.Grants1' at 29;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Grants1"
+				id="ad5db1d7286548c8844390bd1a50e2b6"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.452"
+			timeRelativeToTestModuleStartTime="00:38.452"
+			timeWallClock="20:23:06"
+			time="00:38.452"
+			level="Info"
+			category="Delay"
+			errimg=".\FIREFOX_QA20160121_202223_29830b53_trace.jpg"
+			errthumb=".\FIREFOX_QA20160121_202223_29830b53_trace_thumb.jpg">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="100"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.454"
+			timeRelativeToTestModuleStartTime="00:41.454"
+			timeWallClock="20:23:09"
+			time="00:41.454"
+			level="Info"
+			category="Mouse"
+			errimg=".\FIREFOX_QA20160121_202223_a1a1d693_trace.jpg"
+			errthumb=".\FIREFOX_QA20160121_202223_a1a1d693_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ExactEquity.Flex' at 4;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//embed[#'flex']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Flex"
+				id="1e85fe78921141ff9c1e85beeeb8e99d"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="103"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:41.845"
+			timeRelativeToTestModuleStartTime="01:41.845"
+			timeWallClock="20:24:10"
+			time="01:41.845"
+			level="Error"
+			category="Module"
+			errimg=".\FIREFOX_QA20160121_202223_af7a1a1b_trace.jpg"
+			errthumb=".\FIREFOX_QA20160121_202223_af7a1a1b_trace_thumb.jpg">
+			<message>
+				Failed to find item 'GracePeriodSavedRepository.ExactEquity.Flex'.<br/>No element found for path '/dom[1]//embed[#'flex']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at GracePeriodSaved.GracePeriodSavedRepositoryFolders.ExactEquityAppFolder.get_Flex() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\GracePeriodSavedRepository.cs:line 726
+   at GracePeriodSaved.FIREFOX_QA.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs:line 104
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="104"
+				type="repoitem"
+				path="/dom[1]//embed[#'flex']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Flex"
+				id="1e85fe78921141ff9c1e85beeeb8e99d"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="6"/>
+		</item>
+	</activity>
+</report>

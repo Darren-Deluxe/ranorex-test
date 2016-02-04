@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="11e2a527be597077"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/15/2016 12:02:11 AM"
+		timestampiso="2016-01-15T05:02:11"
+		timeoutfactor="1"
+		module="Chrome">
+		<detail>
+			Chrome
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.709"
+			timeRelativeToTestModuleStartTime="00:00.710"
+			timeWallClock="00:02:12"
+			time="00:00.709"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://qa.nasdaqprivatemarket.com/site/app.php?debug=true' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.818"
+			timeRelativeToTestModuleStartTime="00:00.819"
+			timeWallClock="00:02:12"
+			time="00:00.818"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.Grants' at 79;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Grants"
+				id="48702ca0083b4368918efcf69bda59fc"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.504"
+			timeRelativeToTestModuleStartTime="00:20.505"
+			timeWallClock="00:02:32"
+			time="00:20.504"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.OptionPlan2011Aug112' at 86;29.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']/treeitem[@text='Option Plan 2011 (Aug 11)']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.OptionPlan2011Aug112"
+				id="fdfe489621c440b8ad8d9cb2f455eb92"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.251"
+			timeRelativeToTestModuleStartTime="00:24.252"
+			timeWallClock="00:02:36"
+			time="00:24.251"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.Options' at 36;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[@id='captableBox']/?/?/container[@id='tabnavigator']/container[@id='awardsView']/?/?/element[@id='tabBar']/container[@id='dataGroup']/?/?/text[@caption='Options']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Options"
+				id="dbc3bb84e1884a0e94f3c4b9d48c4ce1"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

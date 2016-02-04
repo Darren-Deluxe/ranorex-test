@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8afbab08f9d2b3e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/14/2016 9:20:31 PM"
+		timestampiso="2016-01-15T02:20:31"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.OptionPlan2011Aug11'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.537"
+			timeRelativeToTestModuleStartTime="00:00.538"
+			timeWallClock="21:20:31"
+			time="00:00.537"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://qa.nasdaqprivatemarket.com/site/app.php' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.489"
+			timeRelativeToTestModuleStartTime="00:11.490"
+			timeWallClock="21:20:42"
+			time="00:11.489"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 500ms.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\Recording1.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.999"
+			timeRelativeToTestModuleStartTime="00:12.000"
+			timeWallClock="21:20:43"
+			time="00:11.999"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.Grants' at 26;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Grants"
+				id="48702ca0083b4368918efcf69bda59fc"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\Recording1.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.203"
+			timeRelativeToTestModuleStartTime="00:23.204"
+			timeWallClock="21:20:54"
+			time="00:23.203"
+			level="Info"
+			category="Delay"
+			errimg=".\Recording120160114_212023_9567bc0a_trace.jpg"
+			errthumb=".\Recording120160114_212023_9567bc0a_trace_thumb.jpg">
+			<message>
+				Waiting for 500ms.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\Recording1.cs"
+				codeline="93"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.704"
+			timeRelativeToTestModuleStartTime="00:23.705"
+			timeWallClock="21:20:55"
+			time="00:23.704"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120160114_212023_ed9e43c9_trace.jpg"
+			errthumb=".\Recording120160114_212023_ed9e43c9_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.OptionPlan2011Aug11' at 145;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']/treeitem[@text='Option Plan 2011 (Aug 11)']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.OptionPlan2011Aug11"
+				id="c430a7204e69402086c0ce8b6b3bf576"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\Recording1.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:05.911"
+			timeRelativeToTestModuleStartTime="02:05.912"
+			timeWallClock="21:22:37"
+			time="02:05.911"
+			level="Error"
+			category="Module"
+			errimg=".\Recording120160114_212023_49d88d94_trace.jpg"
+			errthumb=".\Recording120160114_212023_49d88d94_trace_thumb.jpg">
+			<message>
+				Failed to find item 'GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.OptionPlan2011Aug11'.<br/>No element found for path '/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']/treeitem[@text='Option Plan 2011 (Aug 11)']' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at GracePeriodSaved.GracePeriodSavedRepositoryFolders.ContainerMainHGroup2Folder.get_OptionPlan2011Aug11() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\GracePeriodSavedRepository.cs:line 627
+   at GracePeriodSaved.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\Recording1.cs:line 97
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\Recording1.cs"
+				codeline="97"
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']/treeitem[@text='Option Plan 2011 (Aug 11)']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.OptionPlan2011Aug11"
+				id="c430a7204e69402086c0ce8b6b3bf576"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="4"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="10b6a7a84614dc91"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/14/2016 9:39:53 PM"
+		timestampiso="2016-01-15T02:39:53"
+		timeoutfactor="1"
+		module="Firefox">
+		<detail>
+			Firefox
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.701"
+			timeRelativeToTestModuleStartTime="00:00.702"
+			timeWallClock="21:39:54"
+			time="00:00.701"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'file:///C:/NQ/exact_equity_flex_client/client/bin-debug/main.html' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\firefox.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.812"
+			timeRelativeToTestModuleStartTime="00:00.813"
+			timeWallClock="21:39:54"
+			time="00:00.812"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.Grants' at 27;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//object[#'main']//treeitem[@accessiblename='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Grants"
+				id="b449ae8b10df4eacba64a73e8a93dceb"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\firefox.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.779"
+			timeRelativeToTestModuleStartTime="00:18.780"
+			timeWallClock="21:40:12"
+			time="00:18.779"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.Outline' at 87;193.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//object[#'main']/?/?/tree[@accessiblerole='Outline']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Outline"
+				id="184926e0abc94288bb9d2d493b4dfacc"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\firefox.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.773"
+			timeRelativeToTestModuleStartTime="00:20.774"
+			timeWallClock="21:40:14"
+			time="00:20.773"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.Options' at 62;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//object[#'main']//tabpage[@accessiblename='Options']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Options"
+				id="65920d16e1b3424e83073409f64be1a0"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\firefox.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.429"
+			timeRelativeToTestModuleStartTime="00:25.430"
+			timeWallClock="21:40:18"
+			time="00:25.429"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'ExactEquity.Graphic' at 260;56.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//object[#'main']/element[@class='GeckoPluginWindow']/picture[6]"
+				fullname="GracePeriodSavedRepository.ExactEquity.Graphic"
+				id="cf2d62a6de0e4874b7bb8411a5dc1cb2"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\firefox.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

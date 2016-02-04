@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1e2cd2af51166b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/21/2016 8:04:51 PM"
+		timestampiso="2016-01-22T01:04:51"
+		timeoutfactor="1"
+		module="ChromeQA">
+		<detail>
+			ChromeQA
+		</detail>
+		<errmsg>
+			Failed to find item 'GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Grants1'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.556"
+			timeRelativeToTestModuleStartTime="00:00.557"
+			timeWallClock="20:04:52"
+			time="00:00.556"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://qa.nasdaqprivatemarket.com/site/app.php' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chromeQA.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.620"
+			timeRelativeToTestModuleStartTime="00:00.621"
+			timeWallClock="20:04:52"
+			time="00:00.620"
+			level="Info"
+			category="Delay"
+			errimg=".\chromeQA20160121_200446_bc85ef6a_trace.jpg"
+			errthumb=".\chromeQA20160121_200446_bc85ef6a_trace_thumb.jpg">
+			<message>
+				Waiting for 25s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chromeQA.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.638"
+			timeRelativeToTestModuleStartTime="00:25.639"
+			timeWallClock="20:05:17"
+			time="00:25.638"
+			level="Info"
+			category="Mouse"
+			errimg=".\chromeQA20160121_200446_e8ee6735_trace.jpg"
+			errthumb=".\chromeQA20160121_200446_e8ee6735_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.Grants1' at 69;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Grants1"
+				id="ad5db1d7286548c8844390bd1a50e2b6"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chromeQA.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:55.880"
+			timeRelativeToTestModuleStartTime="01:55.881"
+			timeWallClock="20:06:47"
+			time="01:55.880"
+			level="Error"
+			category="Module"
+			errimg=".\chromeQA20160121_200446_5fc1ac5b_trace.jpg"
+			errthumb=".\chromeQA20160121_200446_5fc1ac5b_trace_thumb.jpg">
+			<message>
+				Failed to find item 'GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Grants1'.<br/>No element found for path '/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at GracePeriodSaved.GracePeriodSavedRepositoryFolders.ContainerMainHGroup2Folder.get_Grants1() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\GracePeriodSavedRepository.cs:line 748
+   at GracePeriodSaved.ChromeQA.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chromeQA.cs:line 90
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chromeQA.cs"
+				codeline="90"
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Grants1"
+				id="ad5db1d7286548c8844390bd1a50e2b6"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

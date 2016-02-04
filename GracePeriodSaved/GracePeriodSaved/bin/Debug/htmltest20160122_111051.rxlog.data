@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="38c9aea42081f72c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/22/2016 11:10:58 AM"
+		timestampiso="2016-01-22T16:10:58"
+		timeoutfactor="1"
+		module="Htmltest">
+		<detail>
+			Htmltest
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.531"
+			timeRelativeToTestModuleStartTime="00:00.531"
+			timeWallClock="11:10:59"
+			time="00:00.531"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'www.amazon.com' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.664"
+			timeRelativeToTestModuleStartTime="00:00.664"
+			timeWallClock="11:10:59"
+			time="00:00.664"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2000ms.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.680"
+			timeRelativeToTestModuleStartTime="00:02.680"
+			timeWallClock="11:11:01"
+			time="00:02.680"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.Twotabsearchtextbox' at 208;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'twotabsearchtextbox']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Twotabsearchtextbox"
+				id="321af9bf3dfa4dbbaa94617433b2d6d9"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.135"
+			timeRelativeToTestModuleStartTime="00:17.135"
+			timeWallClock="11:11:15"
+			time="00:17.135"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2000ms.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="93"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.149"
+			timeRelativeToTestModuleStartTime="00:19.149"
+			timeWallClock="11:11:17"
+			time="00:19.149"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'cat{Space}litter' with focus on 'ExactEquity.Twotabsearchtextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'twotabsearchtextbox']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Twotabsearchtextbox"
+				id="321af9bf3dfa4dbbaa94617433b2d6d9"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.286"
+			timeRelativeToTestModuleStartTime="00:45.286"
+			timeWallClock="11:11:44"
+			time="00:45.286"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2000ms.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="100"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.303"
+			timeRelativeToTestModuleStartTime="00:47.303"
+			timeWallClock="11:11:46"
+			time="00:47.303"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'ExactEquity.IssDiv0' at 218;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'issDiv0']"
+				fullname="GracePeriodSavedRepository.ExactEquity.IssDiv0"
+				id="6e0565a45245478e899a346ae196ffda"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="103"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.140"
+			timeRelativeToTestModuleStartTime="00:49.140"
+			timeWallClock="11:11:47"
+			time="00:49.140"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2000ms.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="107"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.147"
+			timeRelativeToTestModuleStartTime="00:51.147"
+			timeWallClock="11:11:49"
+			time="00:51.147"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'ExactEquity' at 618;540.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]"
+				fullname="GracePeriodSavedRepository.ExactEquity.Self"
+				id="d670261f9849434a9bcae02bdffdd610"
+				timeout="30000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="110"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

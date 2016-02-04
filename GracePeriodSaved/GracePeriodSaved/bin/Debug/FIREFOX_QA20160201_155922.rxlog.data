@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9b261e37842d39a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1360x768"
+		timestamp="2/1/2016 3:59:28 PM"
+		timestampiso="2016-02-01T20:59:28"
+		timeoutfactor="1"
+		module="FIREFOX_QA">
+		<detail>
+			FIREFOX_QA
+		</detail>
+		<errmsg>
+			Image not found in element {TreeItem:Option Plan 2011 (Aug 11)}.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.701"
+			timeRelativeToTestModuleStartTime="00:00.702"
+			timeWallClock="15:59:28"
+			time="00:00.701"
+			level="Info"
+			category="Mouse"
+			errimg=".\FIREFOX_QA20160201_155922_dc364371_trace.jpg"
+			errthumb=".\FIREFOX_QA20160201_155922_dc364371_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'FileCNQExactEquityFlexClientC.OptionPlan2011Aug11' at 10;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption~'^file:///C:/NQ/exact_equit']//object[#'main']/?/?/tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Option Plan 2011 (Aug 11)']"
+				fullname="NewRepository.FileCNQExactEquityFlexClientC.OptionPlan2011Aug11"
+				id="ed2644e53d0b4f6aa47b1134909ec715"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="82"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.157"
+			timeRelativeToTestModuleStartTime="00:03.158"
+			timeWallClock="15:59:31"
+			time="00:03.157"
+			level="Error"
+			category="Module"
+			errimg=".\FIREFOX_QA20160201_155922_b04afb1f_trace.jpg"
+			errthumb=".\FIREFOX_QA20160201_155922_b04afb1f_trace_thumb.jpg">
+			<message>
+				Image not found in element {TreeItem:Option Plan 2011 (Aug 11)}.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Imaging.FindSingle(Element element, Bitmap feature, FindOptions options)
+   at Ranorex.Location.GetElementLocation(Element element, Boolean relative)
+   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.Click(Location location)
+   at GracePeriodSaved.FIREFOX_QA.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs:line 83
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="83"
+				loglvl="Error"
+				itemindex="14"/>
+		</item>
+	</activity>
+</report>

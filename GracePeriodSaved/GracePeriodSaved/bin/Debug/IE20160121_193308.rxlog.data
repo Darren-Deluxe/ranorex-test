@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="19.17s"
+		durationms="19166"
+		type="root"
+		rid="94c460bdd8227d0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/21/2016 7:33:23 PM"
+		timestampiso="2016-01-22T00:33:23"
+		timeoutfactor="1"
+		module="IE">
+		<detail>
+			IE
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.616"
+			timeRelativeToTestModuleStartTime="00:00.617"
+			timeWallClock="19:33:23"
+			time="00:00.616"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://qa.nasdaqprivatemarket.com/site/login.php' with browser 'IE' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\IE.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.719"
+			timeRelativeToTestModuleStartTime="00:00.720"
+			timeWallClock="19:33:24"
+			time="00:00.719"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.Grants1' at 75;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Grants1"
+				id="ad5db1d7286548c8844390bd1a50e2b6"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\IE.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.574"
+			timeRelativeToTestModuleStartTime="00:08.575"
+			timeWallClock="19:33:31"
+			time="00:08.574"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.OptionPlan2011Aug112' at 104;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']/treeitem[@text='Option Plan 2011 (Aug 11)']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.OptionPlan2011Aug112"
+				id="545cc68b79374a2cad13ff16820b39b5"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\IE.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.628"
+			timeRelativeToTestModuleStartTime="00:11.629"
+			timeWallClock="19:33:34"
+			time="00:11.628"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.Options1' at 16;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[@id='captableBox']/?/?/container[@id='tabnavigator']/container[@id='awardsView']/?/?/element[@id='tabBar']/container[@id='dataGroup']/?/?/text[@caption='Options']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Options1"
+				id="dcdb801534b04099a2f6e7fb3e03b946"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\IE.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.656"
+			timeRelativeToTestModuleStartTime="00:15.657"
+			timeWallClock="19:33:39"
+			time="00:15.656"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{Text:Label}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\IE.cs"
+				codeline="95"
+				loglvl="Warn"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.343"
+			timeRelativeToTestModuleStartTime="00:16.344"
+			timeWallClock="19:33:39"
+			time="00:16.343"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'ExactEquity.ContainerMainHGroup2.TextLine' at 43;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[@id='captableBox']//container[@id='awardsView']/?/?/container[@id='optionPlanViewStack']/container[@caption='activetab']/?/?/table[@id='optionsDataGrid']/row[@index='1']/cell[@text='Jane Corsow']/text[@type='TextLine']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.TextLine"
+				id="b0acf22b23034f71bbf5ed532f5b8a39"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\IE.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.166"
+			timeRelativeToTestModuleStartTime="00:19.167"
+			timeWallClock="19:33:42"
+			time="00:19.166"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

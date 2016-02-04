@@ -1,0 +1,9 @@
+C:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\bin\Debug\GracePeriodSaved.rxtmg
+C:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\bin\Debug\GracePeriodSaved.rxtst
+C:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\bin\Debug\RepositoryImages\GracePeriodSavedRepository4f2c779a.rximgres
+C:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\bin\Debug\RepositoryImages\NewRepositoryd223755f.rximgres
+C:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\bin\Debug\GracePeriodSaved.exe.config
+C:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\bin\Debug\GracePeriodSaved.exe
+C:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\bin\Debug\GracePeriodSaved.pdb
+C:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\obj\x86\Debug\GracePeriodSaved.exe
+C:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\obj\x86\Debug\GracePeriodSaved.pdb

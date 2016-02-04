@@ -1,0 +1,127 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{BB7E3D4F-78F6-4430-BC70-0DE4D44DC7E3}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GracePeriodSaved</RootNamespace>
+    <AssemblyName>GracePeriodSaved</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>6fb956cf-a0d0-4a0f-9316-d671dd026345</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>0d560583-766c-4e63-a316-0d4c1269e1ea</id>
+    </Compile>
+    <Compile Include="FIREFOX_QA.cs">
+      <BoundTo>fcd4f11e-b399-45b8-8b65-edcfc844381a</BoundTo>
+      <DependentUpon>FIREFOX_QA.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4770e900-2ba0-4d95-85d8-523043cdd5c6</id>
+    </Compile>
+    <Compile Include="FIREFOX_QA.UserCode.cs">
+      <BoundTo>fcd4f11e-b399-45b8-8b65-edcfc844381a</BoundTo>
+      <DependentUpon>FIREFOX_QA.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bb3f438c-8eba-4ba4-89bd-3d6f4f10939d</id>
+    </Compile>
+    <Compile Include="GracePeriodSavedRepository.cs">
+      <BoundTo>6fb956cf-a0d0-4a0f-9316-d671dd026345</BoundTo>
+      <DependentUpon>GracePeriodSavedRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>84a1b0b0-5688-4e09-941c-f8c8ff5949c5</id>
+    </Compile>
+    <Compile Include="NewRepository.cs">
+      <BoundTo>353dd9c5-5e21-409c-bb04-a75ef3cb24a2</BoundTo>
+      <DependentUpon>NewRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>3b101370-7319-4d82-98e9-42aab9a3c805</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>d27e3e62-2c63-4ba2-9d14-954cfd46070b</id>
+    </Compile>
+    <None Include="app.config">
+      <id>861b737a-a3b9-48a1-b8cc-cbb3335de509</id>
+    </None>
+    <None Include="FIREFOX_QA.rxrec">
+      <id>fcd4f11e-b399-45b8-8b65-edcfc844381a</id>
+      <recordtableid>47d8dd30-49ce-460e-b4c1-df3566d31d18</recordtableid>
+      <BoundTo>353dd9c5-5e21-409c-bb04-a75ef3cb24a2</BoundTo>
+    </None>
+    <None Include="GracePeriodSavedRepository.rximg">
+      <BoundTo>6fb956cf-a0d0-4a0f-9316-d671dd026345</BoundTo>
+      <DependentUpon>GracePeriodSavedRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>2ae99558-e885-4030-ada9-670387e01660</id>
+    </None>
+    <None Include="GracePeriodSavedRepository.rxrep">
+      <id>6fb956cf-a0d0-4a0f-9316-d671dd026345</id>
+      <repoid>1215383f-a499-4afc-a34d-4f0afe878117</repoid>
+      <reporootid>4f2c779a-8b56-40cb-b3e9-df2d93a463ca</reporootid>
+    </None>
+    <None Include="NewRepository.rximg">
+      <DependentUpon>NewRepository.rxrep</DependentUpon>
+      <id>48e8b25f-0fc8-48f3-b04f-3e40e7668862</id>
+      <BoundTo>353dd9c5-5e21-409c-bb04-a75ef3cb24a2</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="NewRepository.rxrep">
+      <id>353dd9c5-5e21-409c-bb04-a75ef3cb24a2</id>
+      <repoid>a80595ae-85ca-4e9a-afef-ea5adbf53d3b</repoid>
+      <reporootid>d223755f-9baf-42e7-8cd4-0cb5aac85329</reporootid>
+    </None>
+    <Content Include="GracePeriodSaved.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>e50ba217-c36d-4a7a-9d87-aae1dacaf8f1</id>
+    </Content>
+    <Content Include="GracePeriodSaved.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>0cdf0aac-def4-45a9-9a55-fb8dfaa2a48a</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

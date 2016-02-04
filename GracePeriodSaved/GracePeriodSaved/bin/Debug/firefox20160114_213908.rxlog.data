@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3a000f41ff35b40"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/14/2016 9:39:15 PM"
+		timestampiso="2016-01-15T02:39:15"
+		timeoutfactor="1"
+		module="Firefox">
+		<detail>
+			Firefox
+		</detail>
+		<errmsg>
+			Failed to move to location '846;310' within element '{WebDocument:IE20160114_212956.rxlog}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.596"
+			timeRelativeToTestModuleStartTime="00:00.597"
+			timeWallClock="21:39:15"
+			time="00:00.596"
+			level="Info"
+			category="Website"
+			errimg=".\firefox20160114_213908_6c168405_trace.jpg"
+			errthumb=".\firefox20160114_213908_6c168405_trace_thumb.jpg">
+			<message>
+				Opening web site 'file:///C:/NQ/exact_equity_flex_client/client/bin-debug/main.html' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\firefox.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.691"
+			timeRelativeToTestModuleStartTime="00:00.692"
+			timeWallClock="21:39:15"
+			time="00:00.691"
+			level="Info"
+			category="Mouse"
+			errimg=".\firefox20160114_213908_87cd3ca5_trace.jpg"
+			errthumb=".\firefox20160114_213908_87cd3ca5_trace_thumb.jpg">
+			<message>
+				Mouse Left Down item 'ExactEquity' at 846;310.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]"
+				fullname="GracePeriodSavedRepository.ExactEquity.Self"
+				id="d670261f9849434a9bcae02bdffdd610"
+				timeout="30000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\firefox.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.510"
+			timeRelativeToTestModuleStartTime="00:04.511"
+			timeWallClock="21:39:19"
+			time="00:04.510"
+			level="Error"
+			category="Module"
+			errimg=".\firefox20160114_213908_8946c70f_trace.jpg"
+			errthumb=".\firefox20160114_213908_8946c70f_trace_thumb.jpg">
+			<message>
+				Failed to move to location '846;310' within element '{WebDocument:IE20160114_212956.rxlog}'.<br/>The pointer cannot be moved to point '{X=-197,Y=433}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.MoveTo(Location location, Duration moveTime)
+   at Ranorex.Adapter.MoveTo(Location location)
+   at GracePeriodSaved.Firefox.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\firefox.cs:line 87
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\firefox.cs"
+				codeline="87"
+				type="repoitem"
+				path="/dom[1]"
+				fullname="GracePeriodSavedRepository.ExactEquity.Self"
+				id="d670261f9849434a9bcae02bdffdd610"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="1"/>
+		</item>
+	</activity>
+</report>

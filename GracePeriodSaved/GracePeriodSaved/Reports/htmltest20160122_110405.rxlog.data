@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="15c255c79e5cc3ac"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/22/2016 11:04:14 AM"
+		timestampiso="2016-01-22T16:04:14"
+		timeoutfactor="1"
+		module="Htmltest">
+		<detail>
+			Htmltest
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.946"
+			timeRelativeToTestModuleStartTime="00:00.946"
+			timeWallClock="11:04:15"
+			time="00:00.946"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'www.amazon.com' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.127"
+			timeRelativeToTestModuleStartTime="00:01.127"
+			timeWallClock="11:04:15"
+			time="00:01.127"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.Twotabsearchtextbox' at 208;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'twotabsearchtextbox']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Twotabsearchtextbox"
+				id="321af9bf3dfa4dbbaa94617433b2d6d9"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.537"
+			timeRelativeToTestModuleStartTime="00:16.537"
+			timeWallClock="11:04:30"
+			time="00:16.537"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'cat{Space}litter' with focus on 'ExactEquity.Twotabsearchtextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//input[#'twotabsearchtextbox']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Twotabsearchtextbox"
+				id="321af9bf3dfa4dbbaa94617433b2d6d9"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.924"
+			timeRelativeToTestModuleStartTime="00:49.924"
+			timeWallClock="11:05:04"
+			time="00:49.924"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'ExactEquity.IssDiv0' at 210;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'issDiv0']"
+				fullname="GracePeriodSavedRepository.ExactEquity.IssDiv0"
+				id="6e0565a45245478e899a346ae196ffda"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.318"
+			timeRelativeToTestModuleStartTime="00:52.318"
+			timeWallClock="11:05:06"
+			time="00:52.318"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'ExactEquity.IssDiv0' at 218;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'issDiv0']"
+				fullname="GracePeriodSavedRepository.ExactEquity.IssDiv0"
+				id="6e0565a45245478e899a346ae196ffda"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.366"
+			timeRelativeToTestModuleStartTime="01:06.366"
+			timeWallClock="11:05:20"
+			time="01:06.366"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'ExactEquity' at 618;540.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]"
+				fullname="GracePeriodSavedRepository.ExactEquity.Self"
+				id="d670261f9849434a9bcae02bdffdd610"
+				timeout="30000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\htmltest.cs"
+				codeline="103"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

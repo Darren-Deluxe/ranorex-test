@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="50.04s"
+		durationms="50035"
+		type="root"
+		rid="1f2a497bacaf70e2"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1360x768"
+		timestamp="2/1/2016 3:55:57 PM"
+		timestampiso="2016-02-01T20:55:57"
+		timeoutfactor="1"
+		module="FIREFOX_QA">
+		<detail>
+			FIREFOX_QA
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.702"
+			timeRelativeToTestModuleStartTime="00:00.703"
+			timeWallClock="15:55:58"
+			time="00:00.702"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExactEquity1.ContainerMainHGroup2.OptionPlan2011Aug112' at 88;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/dom[@caption='file:///C:/NQ/exact_equity_flex_client/client/bin-debug/main.html' and @page='main.html' and @path='C:/NQ/exact_equity_flex_client/client/bin-debug/main.html']//object[#'main']/element[@class='GeckoPluginWindow' and @instance='0']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Grants' and @accessiblerole='OutlineItem' and @text='Grants']/treeitem[@accessiblename='Option Plan 2011 (Aug 11)' and @accessiblerole='OutlineItem' and @text='Option Plan 2011 (Aug 11)']"
+				fullname="NewRepository.ExactEquity1.ContainerMainHGroup2.OptionPlan2011Aug112"
+				id="afbd345c52eb4907a68cb0c66d9d4cf9"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="83"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.035"
+			timeRelativeToTestModuleStartTime="00:50.036"
+			timeWallClock="15:56:47"
+			time="00:50.035"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

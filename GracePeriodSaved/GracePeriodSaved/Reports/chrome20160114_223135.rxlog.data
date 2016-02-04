@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="43.93s"
+		durationms="43929"
+		type="root"
+		rid="1bbdfd74a6c044c7"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/14/2016 10:31:45 PM"
+		timestampiso="2016-01-15T03:31:45"
+		timeoutfactor="1"
+		module="Chrome">
+		<detail>
+			Chrome
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.658"
+			timeRelativeToTestModuleStartTime="00:00.659"
+			timeWallClock="22:31:46"
+			time="00:00.658"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'file:///C:/NQ/exact_equity_flex_client/client/bin-debug/main.html' with browser 'IE' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.791"
+			timeRelativeToTestModuleStartTime="00:00.792"
+			timeWallClock="22:31:46"
+			time="00:00.791"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 500ms.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.298"
+			timeRelativeToTestModuleStartTime="00:01.299"
+			timeWallClock="22:31:46"
+			time="00:01.298"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainHtml.ContainerMainHGroup2.Grants' at 75;29.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[2]/body/flexobject[@id='main']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']"
+				fullname="GracePeriodSavedRepository.MainHtml.ContainerMainHGroup2.Grants"
+				id="d05ecc13ac4f484cbe58f59598fcb4bc"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.632"
+			timeRelativeToTestModuleStartTime="00:05.633"
+			timeWallClock="22:31:51"
+			time="00:05.632"
+			level="Warn"
+			category="Internet Explorer">
+			<message>
+				Please make sure that you have the Ranorex Addon installed and enabled in Internet Explorer. Otherwise Ranorex UI element identification might be very slow.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#c3253<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="90"
+				loglvl="Warn"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.771"
+			timeRelativeToTestModuleStartTime="00:21.772"
+			timeWallClock="22:32:07"
+			time="00:21.771"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 500ms.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="93"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.281"
+			timeRelativeToTestModuleStartTime="00:22.282"
+			timeWallClock="22:32:07"
+			time="00:22.281"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainHtml.ContainerMainHGroup2.OptionPlan2011Aug11' at 99;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[2]/body/flexobject[@id='main']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']/treeitem[@text='Option Plan 2011 (Aug 11)']"
+				fullname="GracePeriodSavedRepository.MainHtml.ContainerMainHGroup2.OptionPlan2011Aug11"
+				id="60d1c532b1334af491532dc97f2f8d04"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.204"
+			timeRelativeToTestModuleStartTime="00:26.205"
+			timeWallClock="22:32:11"
+			time="00:26.204"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 500ms.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="100"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.975"
+			timeRelativeToTestModuleStartTime="00:26.976"
+			timeWallClock="22:32:12"
+			time="00:26.975"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainHtml.ContainerMainHGroup2.Options' at 15;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[2]/body/flexobject[@id='main']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[@id='captableBox']/?/?/container[@id='tabnavigator']/container[@id='awardsView']/?/?/element[@id='tabBar']/container[@id='dataGroup']/?/?/text[@caption='Options']"
+				fullname="GracePeriodSavedRepository.MainHtml.ContainerMainHGroup2.Options"
+				id="3bd6137ac6b44ed9b2afc8c277a37f3a"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="103"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.489"
+			timeRelativeToTestModuleStartTime="00:31.490"
+			timeWallClock="22:32:17"
+			time="00:31.489"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 500ms.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="107"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.990"
+			timeRelativeToTestModuleStartTime="00:31.991"
+			timeWallClock="22:32:17"
+			time="00:31.990"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'MainHtml.ContainerMainHGroup2.Row1' at 228;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[2]/body/flexobject[@id='main']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[@id='captableBox']/?/?/container[@id='tabnavigator']/container[@id='awardsView']/?/?/container[@id='optionPlanViewStack']/container[@caption='activetab']/?/?/table[@id='optionsDataGrid']/row[@index='1']"
+				fullname="GracePeriodSavedRepository.MainHtml.ContainerMainHGroup2.Row1"
+				id="c840f5ba27f04d4993b0c1e6a1cdd86f"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="110"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.929"
+			timeRelativeToTestModuleStartTime="00:43.930"
+			timeWallClock="22:32:29"
+			time="00:43.929"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

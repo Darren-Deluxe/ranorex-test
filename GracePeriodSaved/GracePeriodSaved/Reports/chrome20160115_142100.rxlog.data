@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="26.68s"
+		durationms="26678"
+		type="root"
+		rid="50b984862fec272"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/15/2016 2:21:06 PM"
+		timestampiso="2016-01-15T19:21:06"
+		timeoutfactor="1"
+		module="Chrome">
+		<detail>
+			Chrome
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.583"
+			timeRelativeToTestModuleStartTime="00:00.583"
+			timeWallClock="14:21:06"
+			time="00:00.583"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://qa.nasdaqprivatemarket.com/site/app.php?debug=true' with browser 'Firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.690"
+			timeRelativeToTestModuleStartTime="00:00.690"
+			timeWallClock="14:21:07"
+			time="00:00.690"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.Grants' at 79;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='boxMainArea']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']/treeitem[@text='Option Plan 2011 (Aug 11)']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Grants"
+				id="48702ca0083b4368918efcf69bda59fc"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.320"
+			timeRelativeToTestModuleStartTime="00:02.320"
+			timeWallClock="14:21:08"
+			time="00:02.320"
+			level="Warn"
+			category="WPF">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#wpf-instrumentation<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.678"
+			timeRelativeToTestModuleStartTime="00:26.678"
+			timeWallClock="14:21:33"
+			time="00:26.678"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

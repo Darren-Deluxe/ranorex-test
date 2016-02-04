@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="10679eb6b1eb33ff"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1360x768"
+		timestamp="2/2/2016 3:14:39 PM"
+		timestampiso="2016-02-02T20:14:39"
+		timeoutfactor="1"
+		module="FIREFOX_QA">
+		<detail>
+			FIREFOX_QA
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.607"
+			timeRelativeToTestModuleStartTime="00:00.607"
+			timeWallClock="15:14:39"
+			time="00:00.607"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://qa.nasdaqprivatemarket.com/site/login.php' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.895"
+			timeRelativeToTestModuleStartTime="00:00.895"
+			timeWallClock="15:14:39"
+			time="00:00.895"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 30s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.914"
+			timeRelativeToTestModuleStartTime="00:30.914"
+			timeWallClock="15:15:09"
+			time="00:30.914"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity1' at 704;494.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]"
+				fullname="NewRepository.ExactEquity1.Self"
+				id="cf552641354c4658ab2c145d09c35e82"
+				timeout="30000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.593"
+			timeRelativeToTestModuleStartTime="00:32.593"
+			timeWallClock="15:15:11"
+			time="00:32.593"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="93"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.597"
+			timeRelativeToTestModuleStartTime="00:35.597"
+			timeWallClock="15:15:14"
+			time="00:35.597"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity1.ContainerMainHGroup2.Grants1' at 29;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']"
+				fullname="NewRepository.ExactEquity1.ContainerMainHGroup2.Grants1"
+				id="7ee629972ef140e1b1fd0f635645d227"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.660"
+			timeRelativeToTestModuleStartTime="00:36.660"
+			timeWallClock="15:15:15"
+			time="00:36.660"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="100"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.665"
+			timeRelativeToTestModuleStartTime="00:39.665"
+			timeWallClock="15:15:18"
+			time="00:39.665"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.TreeItemXML' at 4;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='ExactEquity' and @page='app.php' and @path='/site/app.php' and @browsername='Mozilla']//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']/treeitem"
+				fullname="NewRepository.ExactEquity.TreeItemXML"
+				id="032a98cc09884a28b36dfe6108ba30de"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="103"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.810"
+			timeRelativeToTestModuleStartTime="00:40.810"
+			timeWallClock="15:15:19"
+			time="00:40.810"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="107"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.816"
+			timeRelativeToTestModuleStartTime="00:43.816"
+			timeWallClock="15:15:22"
+			time="00:43.816"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity1.ContainerMainHGroup2.Options1' at 38;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[@id='captableBox']/?/?/container[@id='tabnavigator']/container[@id='awardsView']/?/?/element[@id='tabBar']/container[@id='dataGroup']/?/?/text[@caption='Options']"
+				fullname="NewRepository.ExactEquity1.ContainerMainHGroup2.Options1"
+				id="cb78a8f2b20b48d0b41c4a8b8463a220"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="110"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.254"
+			timeRelativeToTestModuleStartTime="00:45.254"
+			timeWallClock="15:15:24"
+			time="00:45.254"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="114"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.257"
+			timeRelativeToTestModuleStartTime="00:48.257"
+			timeWallClock="15:15:27"
+			time="00:48.257"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'ExactEquity.JohnAugustine' at 4;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='ExactEquity' and @page='app.php' and @path='/site/app.php' and @browsername='Mozilla']//div[#'flash']/flexobject[@id='flex' and @caption='flex' and @movie='https://exact-equity-swfs.s3-us-west-2.amazonaws.com/swfs/f6a8f4ef407221388f295dd9927362fc834dca2d.swf?v=135']/container[@type='VBox' and @fulltype='mx.containers::VBox']/container[@type='HBox' and @fulltype='mx.containers::HBox']/container[@id='maintable' and @type='VBox' and @fulltype='mx.containers::VBox']/container[@id='mainArea' and @type='VBox' and @fulltype='mx.containers::VBox']/container[@type='Canvas' and @fulltype='mx.containers::Canvas']/container[@id='boxMainArea' and @type='HBox' and @fulltype='mx.containers::HBox']/container[@type='VBox' and @fulltype='mx.containers::VBox']/container[@type='HBox' and @fulltype='mx.containers::HBox']/container[@id='_main_HGroup2' and @displayname='_main_HGroup2' and @type='HGroup']/container[@id='captableBox' and @displayname='captable132' and @type='Group']/container[@type='VGroup' and @fulltype='spark.components::VGroup']/container[@id='tabnavigator' and @type='ViewStack' and @fulltype='mx.containers::ViewStack']/container[@id='awardsView' and @caption='activetab' and @type='NavigatorContent']/container[@type='Scroller' and @fulltype='spark.components::Scroller']/container[@id='optionPlanViewStack' and @type='ViewStack' and @fulltype='mx.containers::ViewStack']/container[@caption='activetab' and @type='NavigatorContent' and @fulltype='spark.components::NavigatorContent']/container[@type='Scroller' and @fulltype='spark.components::Scroller']/table[@id='optionsDataGrid' and @type='DataGrid' and @fulltype='spark.components::DataGrid']/row[@index='0' and @dataitemtype='com.exactequity.vos::GrantVO']/cell[@text='John Augustine' and @columnindex='2' and @rowindex='0']"
+				fullname="NewRepository.ExactEquity.JohnAugustine"
+				id="fef2d04f5b3d404f956ec1455ee4eabd"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="117"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.804"
+			timeRelativeToTestModuleStartTime="00:49.804"
+			timeWallClock="15:15:28"
+			time="00:49.804"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="121"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.818"
+			timeRelativeToTestModuleStartTime="00:52.818"
+			timeWallClock="15:15:31"
+			time="00:52.818"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='25 Apr 2016') on item 'ExactEquity1.TextInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']//container[@id='container']//container[@type='HGroup']/container[@id='tabDetails']/container[@id='vboxGrant']//container[@id='boxBoard']/container[@id='boxException']/?/?/text[@type='TextInput']"
+				fullname="NewRepository.ExactEquity1.TextInput"
+				id="ef0695c446194c139c7c9b429c4f997b"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="124"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.445"
+			timeRelativeToTestModuleStartTime="00:53.445"
+			timeWallClock="15:15:32"
+			time="00:53.445"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'NewRepository.ExactEquity1.TextInput' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']//container[@id='container']//container[@type='HGroup']/container[@id='tabDetails']/container[@id='vboxGrant']//container[@id='boxBoard']/container[@id='boxException']/?/?/text[@type='TextInput']"
+				fullname="NewRepository.ExactEquity1.TextInput"
+				id="ef0695c446194c139c7c9b429c4f997b"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="125"
+				loglvl="Success"
+				itemindex="12"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.551"
+			timeRelativeToTestModuleStartTime="00:53.551"
+			timeWallClock="15:15:32"
+			time="00:53.551"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="13"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="128"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:56.564"
+			timeRelativeToTestModuleStartTime="00:56.564"
+			timeWallClock="15:15:35"
+			time="00:56.564"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.Flex.CloseButton' at 30;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='ExactEquity' and @page='app.php' and @path='/site/app.php' and @browsername='Mozilla']//div[#'flash']/flexobject[@id='flex' and @caption='flex' and @movie='https://exact-equity-swfs.s3-us-west-2.amazonaws.com/swfs/f6a8f4ef407221388f295dd9927362fc834dca2d.swf?v=135']/element[@type='GrantEditor' and @fulltype='com.exactequity.popups::GrantEditor']/container[@type='Group' and @fulltype='spark.components::Group']/container[@type='VGroup' and @fulltype='spark.components::VGroup']/container[@id='topGroup' and @type='Group' and @fulltype='spark.components::Group']/button[@id='closeButton' and @type='Button' and @fulltype='spark.components::Button']"
+				fullname="NewRepository.ExactEquity.Flex.CloseButton"
+				id="a3e2fa178aea4e26b92357a1eaab93e1"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="131"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:57.496"
+			timeRelativeToTestModuleStartTime="00:57.496"
+			timeWallClock="15:15:36"
+			time="00:57.496"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="15"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="135"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.507"
+			timeRelativeToTestModuleStartTime="01:00.507"
+			timeWallClock="15:15:39"
+			time="01:00.507"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Scroll Vertical by 500 units.
+			</message>
+			<metainfo
+				itemindex="16"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="138"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.014"
+			timeRelativeToTestModuleStartTime="01:01.014"
+			timeWallClock="15:15:40"
+			time="01:01.014"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'ExactEquity.Flex.Thumb' at 2;128.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='ExactEquity' and @page='app.php' and @path='/site/app.php' and @browsername='Mozilla']//div[#'flash']/flexobject[@id='flex' and @caption='flex' and @movie='https://exact-equity-swfs.s3-us-west-2.amazonaws.com/swfs/f6a8f4ef407221388f295dd9927362fc834dca2d.swf?v=135']/container[@type='VBox' and @fulltype='mx.containers::VBox']/container[@type='HBox' and @fulltype='mx.containers::HBox']/container[@id='maintable' and @type='VBox' and @fulltype='mx.containers::VBox']/container[@id='mainArea' and @type='VBox' and @fulltype='mx.containers::VBox']/container[@type='Canvas' and @fulltype='mx.containers::Canvas']/container[@id='boxMainArea' and @type='HBox' and @fulltype='mx.containers::HBox']/container[@type='VBox' and @fulltype='mx.containers::VBox']/container[@type='HBox' and @fulltype='mx.containers::HBox']/container[@id='_main_HGroup2' and @displayname='_main_HGroup2' and @type='HGroup']/container[@type='Group' and @fulltype='spark.components::Group']/container[@id='navigationTree' and @displayname='NavigationTree122' and @type='Group']/container[@id='wrapper' and @type='Group' and @fulltype='spark.components::Group']/container[@type='Group' and @fulltype='spark.components::Group']/scrollbar[@id='navigationTreeScrollBar' and @type='VScrollBar' and @fulltype='spark.components::VScrollBar']/button[@id='thumb' and @type='Button' and @fulltype='spark.components::Button']"
+				fullname="NewRepository.ExactEquity.Flex.Thumb"
+				id="3ce2e768ca4448c3b4f11cde5f308132"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="142"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.857"
+			timeRelativeToTestModuleStartTime="01:01.857"
+			timeWallClock="15:15:40"
+			time="01:01.857"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'ExactEquity.Flex.Thumb' at 3;245.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='ExactEquity' and @page='app.php' and @path='/site/app.php' and @browsername='Mozilla']//div[#'flash']/flexobject[@id='flex' and @caption='flex' and @movie='https://exact-equity-swfs.s3-us-west-2.amazonaws.com/swfs/f6a8f4ef407221388f295dd9927362fc834dca2d.swf?v=135']/container[@type='VBox' and @fulltype='mx.containers::VBox']/container[@type='HBox' and @fulltype='mx.containers::HBox']/container[@id='maintable' and @type='VBox' and @fulltype='mx.containers::VBox']/container[@id='mainArea' and @type='VBox' and @fulltype='mx.containers::VBox']/container[@type='Canvas' and @fulltype='mx.containers::Canvas']/container[@id='boxMainArea' and @type='HBox' and @fulltype='mx.containers::HBox']/container[@type='VBox' and @fulltype='mx.containers::VBox']/container[@type='HBox' and @fulltype='mx.containers::HBox']/container[@id='_main_HGroup2' and @displayname='_main_HGroup2' and @type='HGroup']/container[@type='Group' and @fulltype='spark.components::Group']/container[@id='navigationTree' and @displayname='NavigationTree122' and @type='Group']/container[@id='wrapper' and @type='Group' and @fulltype='spark.components::Group']/container[@type='Group' and @fulltype='spark.components::Group']/scrollbar[@id='navigationTreeScrollBar' and @type='VScrollBar' and @fulltype='spark.components::VScrollBar']/button[@id='thumb' and @type='Button' and @fulltype='spark.components::Button']"
+				fullname="NewRepository.ExactEquity.Flex.Thumb"
+				id="3ce2e768ca4448c3b4f11cde5f308132"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="147"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:02.689"
+			timeRelativeToTestModuleStartTime="01:02.689"
+			timeWallClock="15:15:41"
+			time="01:02.689"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="19"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="152"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.692"
+			timeRelativeToTestModuleStartTime="01:05.692"
+			timeWallClock="15:15:44"
+			time="01:05.692"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'ExactEquity.Flex.Participants' at 171;43.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='ExactEquity' and @page='app.php' and @path='/site/app.php' and @browsername='Mozilla']//div[#'flash']/flexobject[@id='flex' and @caption='flex' and @movie='https://exact-equity-swfs.s3-us-west-2.amazonaws.com/swfs/f6a8f4ef407221388f295dd9927362fc834dca2d.swf?v=135']/container[@type='VBox' and @fulltype='mx.containers::VBox']/container[@type='HBox' and @fulltype='mx.containers::HBox']/container[@id='maintable' and @type='VBox' and @fulltype='mx.containers::VBox']/container[@id='mainArea' and @type='VBox' and @fulltype='mx.containers::VBox']/container[@type='Canvas' and @fulltype='mx.containers::Canvas']/container[@id='boxMainArea' and @type='HBox' and @fulltype='mx.containers::HBox']/container[@type='VBox' and @fulltype='mx.containers::VBox']/container[@type='HBox' and @fulltype='mx.containers::HBox']/container[@id='_main_HGroup2' and @displayname='_main_HGroup2' and @type='HGroup']/container[@type='Group' and @fulltype='spark.components::Group']/container[@id='navigationTree' and @displayname='NavigationTree122' and @type='Group']/container[@id='wrapper' and @type='Group' and @fulltype='spark.components::Group']/container[@type='Group' and @fulltype='spark.components::Group']/container[@id='_NavigationTree_Group4' and @type='Group' and @fulltype='spark.components::Group']/tree[@automationname='sidebarNavigation' and @id='navigationTree' and @type='Tree']/treeitem[@text='Participants' and @dataitemtype='XML']"
+				fullname="NewRepository.ExactEquity.Flex.Participants"
+				id="a0d5e0f30fa54042a89b0f82b6d6d2d2"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="155"
+				itemindex="20"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.861"
+			timeRelativeToTestModuleStartTime="01:06.861"
+			timeWallClock="15:15:45"
+			time="01:06.861"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="21"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="159"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.873"
+			timeRelativeToTestModuleStartTime="01:09.873"
+			timeWallClock="15:15:48"
+			time="01:09.873"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'ExactEquity.Flex.JohnAugustine1' at 4;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='ExactEquity' and @page='app.php' and @path='/site/app.php' and @browsername='Mozilla']//div[#'flash']/flexobject[@id='flex' and @caption='flex' and @movie='https://exact-equity-swfs.s3-us-west-2.amazonaws.com/swfs/f6a8f4ef407221388f295dd9927362fc834dca2d.swf?v=135']/container[@type='VBox' and @fulltype='mx.containers::VBox']/container[@type='HBox' and @fulltype='mx.containers::HBox']/container[@id='maintable' and @type='VBox' and @fulltype='mx.containers::VBox']/container[@id='mainArea' and @type='VBox' and @fulltype='mx.containers::VBox']/container[@type='Canvas' and @fulltype='mx.containers::Canvas']/container[@id='boxMainArea' and @type='HBox' and @fulltype='mx.containers::HBox']/container[@type='VBox' and @fulltype='mx.containers::VBox']/container[@type='HBox' and @fulltype='mx.containers::HBox']/container[@id='_main_HGroup2' and @displayname='_main_HGroup2' and @type='HGroup']/container[@id='captableBox' and @displayname='captable132' and @type='Group']/container[@type='VGroup' and @fulltype='spark.components::VGroup']/container[@id='tabnavigator' and @type='ViewStack' and @fulltype='mx.containers::ViewStack']/container[@id='holdersView' and @caption='activetab' and @type='NavigatorContent']/container[@type='Scroller' and @fulltype='spark.components::Scroller']/container[@id='participantViewStack' and @type='ViewStack' and @fulltype='mx.containers::ViewStack']/container[@caption='activetab' and @type='NavigatorContent' and @fulltype='spark.components::NavigatorContent']/container[@type='Scroller' and @fulltype='spark.components::Scroller']/table[@id='participantsDataGrid' and @type='DataGrid' and @fulltype='spark.components::DataGrid']/row[@index='2' and @dataitemtype='com.exactequity.vos::ParticipantViewModelVO']/cell[@text='John Augustine' and @columnindex='0' and @rowindex='2']"
+				fullname="NewRepository.ExactEquity.Flex.JohnAugustine1"
+				id="4d9660cc33c24348b38e0c94c2c9b08a"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="162"
+				itemindex="22"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:11.407"
+			timeRelativeToTestModuleStartTime="01:11.407"
+			timeWallClock="15:15:50"
+			time="01:11.407"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="23"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="166"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:14.414"
+			timeRelativeToTestModuleStartTime="01:14.414"
+			timeWallClock="15:15:53"
+			time="01:14.414"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.Flex.Termination' at 48;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='ExactEquity' and @page='app.php' and @path='/site/app.php' and @browsername='Mozilla']//div[#'flash']/flexobject[@id='flex' and @caption='flex' and @movie='https://exact-equity-swfs.s3-us-west-2.amazonaws.com/swfs/f6a8f4ef407221388f295dd9927362fc834dca2d.swf?v=135']/element[@type='ParticipantEditor' and @fulltype='com.exactequity.popups::ParticipantEditor']/container[@type='Group' and @fulltype='spark.components::Group']/container[@type='VGroup' and @fulltype='spark.components::VGroup']/container[@type='HGroup' and @fulltype='spark.components::HGroup']/toolbar[@id='_ParticipantEditor_ButtonBar1' and @type='ButtonBar' and @fulltype='spark.components::ButtonBar']/container[@id='dataGroup' and @type='DataGroup' and @fulltype='spark.components::DataGroup']/element[@type='EEButtonBarSkinInnerClass2' and @fulltype='com.exactequity.skins::EEButtonBarSkinInnerClass2']/element[@type='EEButtonBarButtonSkin' and @fulltype='com.exactequity.skins::EEButtonBarButtonSkin']/text[@id='labelDisplay' and @caption='Termination' and @type='Label']"
+				fullname="NewRepository.ExactEquity.Flex.Termination"
+				id="f8a3bcf3d1554cb697bfd2ba55aae580"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="169"
+				itemindex="24"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

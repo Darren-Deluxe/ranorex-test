@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a8caceffddaa667"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/17/2016 7:59:14 PM"
+		timestampiso="2016-01-18T00:59:14"
+		timeoutfactor="1"
+		module="Chrome">
+		<detail>
+			Chrome
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.902"
+			timeRelativeToTestModuleStartTime="00:00.904"
+			timeWallClock="19:59:15"
+			time="00:00.902"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'file:///C:/NQ/exact_equity_flex_client/client/bin-debug/main.html?debug=true' with browser 'Firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.195"
+			timeRelativeToTestModuleStartTime="00:01.196"
+			timeWallClock="19:59:15"
+			time="00:01.195"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExactEquity.Grants' at 90;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//object[#'main']//treeitem[@accessiblename='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Grants"
+				id="8a82a8e0544f4229b1e04f9b105e8d3b"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="87"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.028"
+			timeRelativeToTestModuleStartTime="00:25.029"
+			timeWallClock="19:59:39"
+			time="00:25.028"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExactEquity.OptionPlan2011Aug11' at 188;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//object[#'main']/?/?/tree[@accessiblerole='Outline']"
+				fullname="GracePeriodSavedRepository.ExactEquity.OptionPlan2011Aug11"
+				id="3ee9461209f14a4a9c5fa61dac95ea82"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="93"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

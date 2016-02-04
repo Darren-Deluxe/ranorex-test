@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5cf9d4d8266df98"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/15/2016 12:05:37 AM"
+		timestampiso="2016-01-15T05:05:37"
+		timeoutfactor="1"
+		module="Chrome">
+		<detail>
+			Chrome
+		</detail>
+		<errmsg>
+			Failed to move to location '0;0' within element '{TreeItem:Option Plan 2011 (Aug 11)}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.579"
+			timeRelativeToTestModuleStartTime="00:00.580"
+			timeWallClock="00:05:38"
+			time="00:00.579"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://qa.nasdaqprivatemarket.com/site/app.php?debug=true' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.685"
+			timeRelativeToTestModuleStartTime="00:00.686"
+			timeWallClock="00:05:38"
+			time="00:00.685"
+			level="Info"
+			category="Mouse"
+			errimg=".\chrome20160115_000530_a51346f5_trace.jpg"
+			errthumb=".\chrome20160115_000530_a51346f5_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.Grants' at 79;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Grants"
+				id="48702ca0083b4368918efcf69bda59fc"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.748"
+			timeRelativeToTestModuleStartTime="00:20.749"
+			timeWallClock="00:05:58"
+			time="00:20.748"
+			level="Info"
+			category="Mouse"
+			errimg=".\chrome20160115_000530_5b9880a5_trace.jpg"
+			errthumb=".\chrome20160115_000530_5b9880a5_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ExactEquity.ContainerMainHGroup2.OptionPlan2011Aug112' at 0;0.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']/treeitem[@text='Option Plan 2011 (Aug 11)']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.OptionPlan2011Aug112"
+				id="fdfe489621c440b8ad8d9cb2f455eb92"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.587"
+			timeRelativeToTestModuleStartTime="00:23.588"
+			timeWallClock="00:06:01"
+			time="00:23.587"
+			level="Error"
+			category="Module"
+			errimg=".\chrome20160115_000530_8bc3c883_trace.jpg"
+			errthumb=".\chrome20160115_000530_8bc3c883_trace_thumb.jpg">
+			<message>
+				Failed to move to location '0;0' within element '{TreeItem:Option Plan 2011 (Aug 11)}'.<br/>The pointer cannot be moved to point '{X=-4,Y=225}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.Click(Location location)
+   at GracePeriodSaved.Chrome.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs:line 91
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="91"
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/container[3]/container[@id='navigationTree']//container[@id='_NavigationTree_Group4']/tree[@automationname='sidebarNavigation']/treeitem[@text='Grants']/treeitem[@text='Option Plan 2011 (Aug 11)']"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.OptionPlan2011Aug112"
+				id="fdfe489621c440b8ad8d9cb2f455eb92"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

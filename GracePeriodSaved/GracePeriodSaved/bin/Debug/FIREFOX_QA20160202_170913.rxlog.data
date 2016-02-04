@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="248fe732325ecda"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1360x768"
+		timestamp="2/2/2016 5:09:17 PM"
+		timestampiso="2016-02-02T22:09:17"
+		timeoutfactor="1"
+		module="FIREFOX_QA">
+		<detail>
+			FIREFOX_QA
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.572"
+			timeRelativeToTestModuleStartTime="00:00.573"
+			timeWallClock="17:09:18"
+			time="00:00.572"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="28"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.606"
+			timeRelativeToTestModuleStartTime="00:03.607"
+			timeWallClock="17:09:21"
+			time="00:03.606"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating John Augustines Final Date to Exercise'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='ExactEquity' and @page='app.php' and @path='/site/app.php' and @browsername='Mozilla']//div[#'flash']/flexobject[@id='flex' and @caption='flex' and @movie='https://exact-equity-swfs.s3-us-west-2.amazonaws.com/swfs/f6a8f4ef407221388f295dd9927362fc834dca2d.swf?v=135']/element[@type='ParticipantEditor' and @fulltype='com.exactequity.popups::ParticipantEditor']/container[@type='Group' and @fulltype='spark.components::Group']/container[@type='VGroup' and @fulltype='spark.components::VGroup']/container[@type='HGroup' and @fulltype='spark.components::HGroup']/container[@id='participantsEditorViewStack' and @type='ViewStack' and @fulltype='mx.containers::ViewStack']/container[@id='_ParticipantEditor_TerminationTab1' and @caption='activetab' and @type='NavigatorContent']/container[@type='Scroller' and @fulltype='spark.components::Scroller']/table[@id='terminationDataGrid' and @type='DataGrid' and @fulltype='spark.components::DataGrid']/column[@text='Final Date To Exercise' and @index='9']/cell[@text='25 Apr 2016' and @columnindex='9' and @rowindex='1']"
+				fullname="NewRepository.ExactEquity.Flex.Cell25Apr2016"
+				id="d423b87e1caa43b09a746354ad72d3d1"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.UserCode.cs"
+				codeline="43"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.349"
+			timeRelativeToTestModuleStartTime="00:05.350"
+			timeWallClock="17:09:23"
+			time="00:05.349"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'ColumnIndex' of element for item 'NewRepository.ExactEquity.Flex.Cell25Apr2016' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='ExactEquity' and @page='app.php' and @path='/site/app.php' and @browsername='Mozilla']//div[#'flash']/flexobject[@id='flex' and @caption='flex' and @movie='https://exact-equity-swfs.s3-us-west-2.amazonaws.com/swfs/f6a8f4ef407221388f295dd9927362fc834dca2d.swf?v=135']/element[@type='ParticipantEditor' and @fulltype='com.exactequity.popups::ParticipantEditor']/container[@type='Group' and @fulltype='spark.components::Group']/container[@type='VGroup' and @fulltype='spark.components::VGroup']/container[@type='HGroup' and @fulltype='spark.components::HGroup']/container[@id='participantsEditorViewStack' and @type='ViewStack' and @fulltype='mx.containers::ViewStack']/container[@id='_ParticipantEditor_TerminationTab1' and @caption='activetab' and @type='NavigatorContent']/container[@type='Scroller' and @fulltype='spark.components::Scroller']/table[@id='terminationDataGrid' and @type='DataGrid' and @fulltype='spark.components::DataGrid']/column[@text='Final Date To Exercise' and @index='9']/cell[@text='25 Apr 2016' and @columnindex='9' and @rowindex='1']"
+				fullname="NewRepository.ExactEquity.Flex.Cell25Apr2016"
+				id="d423b87e1caa43b09a746354ad72d3d1"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.UserCode.cs"
+				codeline="44"
+				loglvl="Success"/>
+		</item>
+	</activity>
+</report>

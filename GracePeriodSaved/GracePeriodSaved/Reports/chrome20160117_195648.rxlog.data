@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="71701"
+		type="root"
+		rid="2d241c82a1c8a4"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/17/2016 7:56:53 PM"
+		timestampiso="2016-01-18T00:56:53"
+		timeoutfactor="1"
+		module="Chrome">
+		<detail>
+			Chrome
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.433"
+			timeRelativeToTestModuleStartTime="00:00.433"
+			timeWallClock="19:56:54"
+			time="00:00.433"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'file:///C:/NQ/exact_equity_flex_client/client/bin-debug/main.html?debug=true' with browser 'Firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.533"
+			timeRelativeToTestModuleStartTime="00:00.533"
+			timeWallClock="19:56:54"
+			time="00:00.533"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExactEquity.Grants' at 90;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//object[#'main']//treeitem[@accessiblename='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Grants"
+				id="8a82a8e0544f4229b1e04f9b105e8d3b"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="87"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.890"
+			timeRelativeToTestModuleStartTime="01:00.890"
+			timeWallClock="19:57:54"
+			time="01:00.890"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'GracePeriodSavedRepository.ExactEquity.Grants'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="90"
+				loglvl="Warn"
+				id="8a82a8e0544f4229b1e04f9b105e8d3b"
+				path="/dom[1]//object[#'main']//treeitem[@accessiblename='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Grants"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.894"
+			timeRelativeToTestModuleStartTime="01:00.894"
+			timeWallClock="19:57:54"
+			time="01:00.894"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExactEquity.OptionPlan2011Aug11' at 188;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//object[#'main']/?/?/tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Option Plan 2011 (Aug 11)']"
+				fullname="GracePeriodSavedRepository.ExactEquity.OptionPlan2011Aug11"
+				id="3ee9461209f14a4a9c5fa61dac95ea82"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome.cs"
+				codeline="93"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:11.701"
+			timeRelativeToTestModuleStartTime="01:11.701"
+			timeWallClock="19:58:05"
+			time="01:11.701"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

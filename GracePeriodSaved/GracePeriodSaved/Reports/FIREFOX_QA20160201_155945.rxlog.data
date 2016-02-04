@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b586539220eff54"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1360x768"
+		timestamp="2/1/2016 3:59:50 PM"
+		timestampiso="2016-02-01T20:59:50"
+		timeoutfactor="1"
+		module="FIREFOX_QA">
+		<detail>
+			FIREFOX_QA
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.659"
+			timeRelativeToTestModuleStartTime="00:00.659"
+			timeWallClock="15:59:50"
+			time="00:00.659"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileCNQExactEquityFlexClientC.OptionPlan2011Aug11' at 10;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption~'^file:///C:/NQ/exact_equit']//object[#'main']/?/?/tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Option Plan 2011 (Aug 11)']"
+				fullname="NewRepository.FileCNQExactEquityFlexClientC.OptionPlan2011Aug11"
+				id="ed2644e53d0b4f6aa47b1134909ec715"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="82"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

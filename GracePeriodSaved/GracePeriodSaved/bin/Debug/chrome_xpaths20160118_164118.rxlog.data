@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a57fdf88df56a68"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1366x768"
+		timestamp="1/18/2016 4:41:24 PM"
+		timestampiso="2016-01-18T21:41:24"
+		timeoutfactor="1"
+		module="Chrome_xpaths">
+		<detail>
+			Chrome_xpaths
+		</detail>
+		<errmsg>
+			Failed to find item 'GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Row0'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.352"
+			timeRelativeToTestModuleStartTime="00:00.353"
+			timeWallClock="16:41:24"
+			time="00:00.352"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'file:///C:/NQ/exact_equity_flex_client/client/bin-debug/main.html?debug=true' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome_xpaths.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.422"
+			timeRelativeToTestModuleStartTime="00:00.423"
+			timeWallClock="16:41:24"
+			time="00:00.422"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 25s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome_xpaths.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.433"
+			timeRelativeToTestModuleStartTime="00:25.434"
+			timeWallClock="16:41:49"
+			time="00:25.433"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.Grants' at 81;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//object[#'main']//treeitem[@accessiblename='Grants']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Grants"
+				id="8a82a8e0544f4229b1e04f9b105e8d3b"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome_xpaths.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.347"
+			timeRelativeToTestModuleStartTime="00:27.348"
+			timeWallClock="16:41:51"
+			time="00:27.347"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.OptionPlan2011Aug111' at 137;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//object[#'main']/?/?/tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Option Plan 2011 (Aug 11)']"
+				fullname="GracePeriodSavedRepository.ExactEquity.OptionPlan2011Aug111"
+				id="7d22cb5657c8493c916926f616bfd5dc"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome_xpaths.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.678"
+			timeRelativeToTestModuleStartTime="00:28.679"
+			timeWallClock="16:41:52"
+			time="00:28.678"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExactEquity.Comments' at 388;29.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//object[#'main']/?/?/text[@accessiblename='Comments']"
+				fullname="GracePeriodSavedRepository.ExactEquity.Comments"
+				id="f4507e9e4e004bc29d20e28c23b3523a"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome_xpaths.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.831"
+			timeRelativeToTestModuleStartTime="00:29.832"
+			timeWallClock="16:41:53"
+			time="00:29.831"
+			level="Info"
+			category="Mouse"
+			errimg=".\chrome_xpaths20160118_164118_290df0b4_trace.jpg"
+			errthumb=".\chrome_xpaths20160118_164118_290df0b4_trace_thumb.jpg">
+			<message>
+				Mouse Left DoubleClick item 'ExactEquity.ContainerMainHGroup2.Row0' at 1114;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/dom[@caption~'^file:///C:/NQ/exact_equit']//object[#'main']/element[@class='GeckoPluginWindow']/picture[6]"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Row0"
+				id="fea4efc20de74d1b82ebf38e67fac072"
+				timeout="90000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome_xpaths.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.695"
+			timeRelativeToTestModuleStartTime="00:47.696"
+			timeWallClock="16:42:11"
+			time="00:47.695"
+			level="Warn"
+			category="WPF"
+			errimg=".\chrome_xpaths20160118_164118_de39d365_trace.jpg"
+			errthumb=".\chrome_xpaths20160118_164118_de39d365_trace_thumb.jpg">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#wpf-instrumentation<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome_xpaths.cs"
+				codeline="102"
+				loglvl="Warn"
+				itemindex="5"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:00.082"
+			timeRelativeToTestModuleStartTime="02:00.083"
+			timeWallClock="16:43:24"
+			time="02:00.082"
+			level="Error"
+			category="Module"
+			errimg=".\chrome_xpaths20160118_164118_2ffb91b2_trace.jpg"
+			errthumb=".\chrome_xpaths20160118_164118_2ffb91b2_trace_thumb.jpg">
+			<message>
+				Failed to find item 'GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Row0'.<br/>No element found for path '/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/dom[@caption~'^file:///C:/NQ/exact_equit']//object[#'main']/element[@class='GeckoPluginWindow']/picture[6]' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at GracePeriodSaved.GracePeriodSavedRepositoryFolders.ContainerMainHGroup2Folder.get_Row0() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\GracePeriodSavedRepository.cs:line 710
+   at GracePeriodSaved.Chrome_xpaths.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome_xpaths.cs:line 102
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\chrome_xpaths.cs"
+				codeline="102"
+				type="repoitem"
+				path="/dom[1]//div[#'flash']/flexobject[@id='flex']/?/?/container[@type='HBox']//container[@id='_main_HGroup2']/dom[@caption~'^file:///C:/NQ/exact_equit']//object[#'main']/element[@class='GeckoPluginWindow']/picture[6]"
+				fullname="GracePeriodSavedRepository.ExactEquity.ContainerMainHGroup2.Row0"
+				id="fea4efc20de74d1b82ebf38e67fac072"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="5"/>
+		</item>
+	</activity>
+</report>

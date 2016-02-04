@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="39.71s"
+		durationms="39708"
+		type="root"
+		rid="e56b6951eafabc0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="dbrazeal"
+		host="DBRAZEALPC1"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1360x768"
+		timestamp="2/1/2016 6:54:34 PM"
+		timestampiso="2016-02-01T23:54:34"
+		timeoutfactor="1"
+		module="FIREFOX_QA">
+		<detail>
+			FIREFOX_QA
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.670"
+			timeRelativeToTestModuleStartTime="00:00.671"
+			timeWallClock="18:54:35"
+			time="00:00.670"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3000ms.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.713"
+			timeRelativeToTestModuleStartTime="00:03.714"
+			timeWallClock="18:54:38"
+			time="00:03.713"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'ExactEquity.Instance10796' at 40;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='ExactEquity' and @page='app.php' and @path='/site/app.php' and @browsername='Mozilla']/dom[@domain='qa.nasdaqprivatemarket.com' and @caption='ExactEquity' and @page='app.php']//div[#'flash']/flexobject[@id='flex' and @caption='flex' and @movie='https://exact-equity-swfs.s3-us-west-2.amazonaws.com/swfs/f6a8f4ef407221388f295dd9927362fc834dca2d.swf?v=135']/container[@type='VBox' and @fulltype='mx.containers::VBox']/container[@type='HBox' and @fulltype='mx.containers::HBox']/container[@id='maintable' and @type='VBox' and @fulltype='mx.containers::VBox']/container[@id='mainArea' and @type='VBox' and @fulltype='mx.containers::VBox']/container[@type='Canvas' and @fulltype='mx.containers::Canvas']/container[@id='boxMainArea' and @type='HBox' and @fulltype='mx.containers::HBox']/container[@type='VBox' and @fulltype='mx.containers::VBox']/container[@type='HBox' and @fulltype='mx.containers::HBox']/container[@id='_main_HGroup2' and @displayname='_main_HGroup2' and @type='HGroup']/container[@id='captableBox' and @displayname='captable132' and @type='Group']/container[@type='VGroup' and @fulltype='spark.components::VGroup']/container[@id='tabnavigator' and @type='ViewStack' and @fulltype='mx.containers::ViewStack']/container[@id='awardsView' and @caption='activetab' and @type='NavigatorContent']/container[@type='Scroller' and @fulltype='spark.components::Scroller']/container[@id='optionPlanViewStack' and @type='ViewStack' and @fulltype='mx.containers::ViewStack']/container[@caption='activetab' and @type='NavigatorContent' and @fulltype='spark.components::NavigatorContent']//table[@id='optionsDataGrid' and @type='DataGrid' and @fulltype='spark.components::DataGrid']//cell[@text='John Augustine']"
+				fullname="NewRepository.ExactEquity.Instance10796"
+				id="6b9b97e5fc504966870e494cc4c86299"
+				timeout="60000"
+				codefile="c:\Users\dbrazeal\Documents\Ranorex\RanorexStudio Projects\GracePeriodSaved\GracePeriodSaved\FIREFOX_QA.cs"
+				codeline="85"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.708"
+			timeRelativeToTestModuleStartTime="00:39.709"
+			timeWallClock="18:55:14"
+			time="00:39.708"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

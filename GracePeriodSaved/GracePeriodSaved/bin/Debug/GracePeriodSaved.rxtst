@@ -1,0 +1,30 @@
+﻿<testsuite
+name="GracePeriodSaved"
+rxversion="5.4.4.26486"
+id="02cc5782-8f11-4a69-b1e2-c654effc779d"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+ReportTime="RelativeToTestSuiteStartTime"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+TracingScreenshotMode="Foreground"
+TracingScreenshotQuality="40"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="TestCase"
+		id="77218775-dbcf-4732-b3ed-8ab373744166"/>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="77218775-dbcf-4732-b3ed-8ab373744166"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>
